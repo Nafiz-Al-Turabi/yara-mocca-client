@@ -46,7 +46,7 @@ export default function ContactUs() {
           Let’s work together. Whether you’re looking to expand into Saudi
           Arabia <br />
           or explore new investment frontiers,{" "}
-          <span className="font-bold">Admass</span> is your trusted partner.
+          <strong>Admass</strong> is your trusted partner.
         </p>
 
         <div className="flex flex-col lg:flex-row gap-12 justify-between">

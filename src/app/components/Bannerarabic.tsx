@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 
 const Bannerarabic = () => {
   return (
@@ -29,11 +30,11 @@ const Bannerarabic = () => {
 
           {/* CTA Buttons */}
           <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
-            <button className="bg-white rounded-md px-6 py-3 text-[#070707] font-poppins text-base sm:text-lg md:text-[18px] font-medium leading-[160%] hover:bg-gray-100 transition">
+            <Link href="#services" className="bg-white rounded-md px-6 py-3 text-[#070707] font-poppins text-base sm:text-lg md:text-[18px] font-medium leading-[160%] hover:bg-gray-100 transition">
               استكشف أقسامنا
-            </button>
+            </Link>
             <button className="border border-white text-white px-6 py-3 rounded-md font-poppins text-base sm:text-lg md:text-[18px] font-medium leading-[160%] hover:bg-white hover:text-black transition">
-              شارك مع أدماس
+              شارك مع <strong>أدماس</strong>
             </button>
           </div>
         </div>

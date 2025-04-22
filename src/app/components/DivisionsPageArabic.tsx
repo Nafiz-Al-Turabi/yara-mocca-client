@@ -9,8 +9,8 @@ export default function DivisionsPageArabic() {
                 <h2 className="text-[#002B5B] text-center text_heading text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-[584] leading-[130%] mb-2 ">
                 الأقسام والاستثمارات
                 </h2>
-                <p className="text-[#070707] text-center font-poppins text-base sm:text-lg md:text-[20px] font-normal leading-[160%] tracking-[0.1px] mb-12">
-                تعمل مجموعة أدماس العالمية وتستثمر في
+                <p dir="rtl" className="text-[#070707] text-center font-poppins text-base sm:text-lg md:text-[20px] font-normal leading-[160%] tracking-[0.1px] mb-12">
+                تعمل مجموعة <strong>أدماس</strong> العالمية وتستثمر في
                 </p>
 
                 {/* Grid */}

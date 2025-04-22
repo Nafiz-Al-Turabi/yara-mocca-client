@@ -44,7 +44,7 @@ export default function Whowearearabic() {
               من نحن؟
             </h2>
             <p dir="rtl" className="text-[#070707] mb-8 font-poppins text-base sm:text-lg md:text-xl lg:text-[20px] font-normal leading-[160%] tracking-[0.1px]">
-              تأسست مجموعة أدماس العالمية عام ١٩٨٨ م. في المملكة العربية
+              تأسست <strong>مجموعة <strong>أدماس</strong> العالمية</strong> عام ١٩٨٨ م. في المملكة العربية
               السعودية، وهي شركة رائدة في مجال الاستثمار والخدمات، تدعم الشركات
               العالمية في مسيرتها نحو النجاح في المملكة. بفضل خبرتنا في مختلف
               القطاعات، نقدم دعمًا شاملًا، بدءًا من الخدمات اللوجستية وخدمات
@@ -95,7 +95,7 @@ export default function Whowearearabic() {
             </div>
 
             <p dir="rtl" className="text-[#070707] mb-8 font-poppins text-base sm:text-lg md:text-xl lg:text-[20px] font-normal leading-[160%] tracking-[0.1px] text-right">
-              تتمتع أدماس بسمعة قوية ومحترمة لدى كبرى المؤسسات المالية، مما ساهم
+              تتمتع <strong>أدماس</strong> بسمعة قوية ومحترمة لدى كبرى المؤسسات المالية، مما ساهم
               بشكل كبير في نمونا ومصداقيتنا على مر السنين. هذه السمعة تُمكّننا
               من تعزيز شراكاتنا الاستراتيجية وبناء ثقة المستثمرين والشركاء.
             </p>
@@ -110,7 +110,7 @@ export default function Whowearearabic() {
               إرثنا ومستقبلنا
             </h2>
             <p dir="rtl" className=" mb-6 text-[#070707] font-poppins text-base sm:text-lg md:text-xl lg:text-[20px] font-normal leading-[160%] tracking-[0.1px]">
-              بفضل إرثها الممتد لأكثر من ثلاثة عقود، نجحت شركة أدماس في بناء
+              بفضل إرثها الممتد لأكثر من ثلاثة عقود، نجحت شركة <strong>أدماس</strong> في بناء
               علاقات عميقة مع الشركات الدولية والهيئات الحكومية والمستثمرين
               والشركاء الإقليميين والدوليين.
             </p>

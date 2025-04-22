@@ -20,7 +20,7 @@ export default function TrustCompliance() {
 
             <div className="flex gap-3 items-start">
               <Image src="/check-icon.png" alt="check" width={25} height={25} />
-              <span>Licensed by the Chamber of Commerce of Saudi Arabia</span>
+              <span>Licensed by the Chamber of Commerce of Saudi Arabia.</span>
             </div>
 
             <div className="flex gap-3 items-start">

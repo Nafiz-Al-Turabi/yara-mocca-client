@@ -67,7 +67,7 @@ export default function HowWeWorkPage() {
                 {/* Right: Image */}
                 <div className="w-full lg:w-1/2">
                     <Image
-                        src="/how-we-work.png"
+                        src="/how-we-work.jpeg"
                         alt="How We Work"
                         width={700}
                         height={500}

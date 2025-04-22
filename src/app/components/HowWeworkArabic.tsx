@@ -18,7 +18,7 @@ export default function HowWeWorkPageArabic() {
 
                             <div className="text-end">
                                 <h3 className="text-[#002B5B] text_heading text-lg sm:text-xl md:text-[24px] font-[584] leading-[130%]">اكتشاف العميل</h3>
-                                <p dir="rtl" className="text-[#070707] font-poppins text-base sm:text-lg md:text-[20px] font-normal leading-[160%] tracking-[0.1px]">
+                                <p dir="rtl" className="text-[#070707] text-right font-poppins text-base sm:text-lg md:text-[20px] font-normal leading-[160%] tracking-[0.1px]">
                                     نقوم بجمع المعلومات ذات الصلة حول عملك وأهدافك واحتياجات السوق.
                                 </p>
                             </div>
@@ -66,7 +66,7 @@ export default function HowWeWorkPageArabic() {
                 {/* Right: Image */}
                 <div className="w-full lg:w-1/2">
                     <Image
-                        src="/how-we-work.png"
+                        src="/how-we-work.jpeg"
                         alt="How We Work"
                         width={700}
                         height={500}

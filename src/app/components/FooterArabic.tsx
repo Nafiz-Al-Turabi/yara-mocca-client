@@ -43,7 +43,7 @@ export default function FooterArabic() {
 
       {/* Bottom Line */}
       <div className="border-t border-white/20 mt-10 pt-4 text-[#777980] text-center font-poppins text-sm sm:text-base md:text-[16px] font-normal leading-[160%] tracking-[0.08px]">
-      © 2025 مجموعة أدماس الدولية. جميع الحقوق محفوظة.
+      © 2025 مجموعة <strong>أدماس</strong> الدولية. جميع الحقوق محفوظة.
       </div>
     </footer>
   );

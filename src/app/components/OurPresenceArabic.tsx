@@ -32,7 +32,7 @@ export default function OurPresenceArabic() {
                 <div className="w-full lg:w-1/2">
                     <h2 className="text-[#002B5B] text_heading text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-[584] leading-[130%] text-right mb-4">وجودنا</h2>
                     <p dir="rtl" className="text-[#070707] font-poppins text-base sm:text-lg md:text-[20px] font-normal leading-[160%] text-right tracking-[0.1px] mb-8">
-                        تدير أدماس عدة مكاتب في العاصمة الرياض، المملكة العربية السعودية، وهي ملتزمة بتوسيع وجودها المادي لتلبية الطلب المتزايد والوصول إلى المناطق غير المخدومة.
+                        تدير <strong>أدماس</strong> عدة مكاتب في العاصمة الرياض، المملكة العربية السعودية، وهي ملتزمة بتوسيع وجودها المادي لتلبية الطلب المتزايد والوصول إلى المناطق غير المخدومة.
                     </p>
 
                     <div className="flex gap-4">

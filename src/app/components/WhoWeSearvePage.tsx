@@ -171,7 +171,7 @@ export default function WhoWeServePage() {
                         </h2>
                         <div className="space-y-5">
                             <p className="text-[#070707] font-poppins text-base sm:text-lg md:text-[20px] font-normal leading-[160%] tracking-[0.1px]">
-                                At Admass, we believe in strategic, market-aligned decision making grounded in:
+                                At <strong>Admass</strong>, we believe in strategic, market-aligned decision making grounded in:
                             </p>
                             <div className="flex gap-5">
                                 <div className="w-[5px] bg-[#002B5B] rounded-2xl"></div>

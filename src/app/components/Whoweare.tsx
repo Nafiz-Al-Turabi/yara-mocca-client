@@ -44,7 +44,7 @@ export default function WhoWeAre() {
                             Who We Are?
                         </h2>
                         <p className=" text-[#070707] mb-8 font-poppins text-base sm:text-lg md:text-xl lg:text-[20px] font-normal leading-[160%] tracking-[0.1px]">
-                            Founded in 1988 in Saudi Arabia, Admass International Group is a
+                            Founded in 1988 in Saudi Arabia,<span className="font-bold">Admass International Group</span> is a
                             premier investment and service company supporting international
                             businesses in navigating and succeeding within the Kingdom. With
                             expertise across diverse sectors, we provide end-to-end support from
@@ -97,7 +97,7 @@ export default function WhoWeAre() {
                         </div>
 
                         <p className="text-[#070707] font-poppins text-base sm:text-lg md:text-xl lg:text-[20px] font-normal leading-[160%] tracking-[0.1px]">
-                            Admass holds a strong and respected reputation with major financial
+                            <strong>Admass</strong> holds a strong and respected reputation with major financial
                             institutions, which has significantly contributed to our growth and
                             credibility over the years. This reputation allows us to foster
                             strategic partnerships and build investor & partner confidence.
@@ -116,7 +116,7 @@ export default function WhoWeAre() {
                             Our Legacy & Future
                         </h2>
                         <p className="mb-6 text-[#070707] font-poppins text-base sm:text-lg md:text-xl lg:text-[20px] font-normal leading-[160%] tracking-[0.1px]">
-                            With a legacy of over three decades, Admass has developed deep relationships with international companies, government entities, and regional and international investors and partners.
+                            With a legacy of over three decades, <strong>Admass</strong> has developed deep relationships with international companies, government entities, and regional and international investors and partners.
                         </p>
                         <p className="text-[#070707] font-poppins text-base sm:text-lg md:text-xl lg:text-[20px] font-normal leading-[160%] tracking-[0.1px]">
                             Today, we are evolving with a focus on sustainability, technology, and national development goals, aiming to become a publicly listed company and a leading force in shaping the new Saudi economy and aligning with Saudi Vision 2030.

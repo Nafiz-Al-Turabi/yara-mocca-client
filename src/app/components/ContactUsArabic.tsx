@@ -49,7 +49,7 @@ export default function ContactUsArabic() {
           دعونا نعمل معًا. سواء كنت تبحث عن التوسع في المملكة العربية السعودية
           أو <br />
           استكشاف آفاق استثمار جديدة، فإن{" "}
-          <span className="font-bold">أدماس</span> هو شريكك الموثوق.
+          <strong>أدماس</strong> هو شريكك الموثوق.
         </p>
 
         <div className="flex flex-col lg:flex-row gap-12 justify-between">

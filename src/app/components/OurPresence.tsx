@@ -32,7 +32,7 @@ export default function OurPresence() {
                 <div className="w-full lg:w-1/2">
                     <h2 className="text-[#002B5B] text_heading text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-[584] leading-[130%] mb-4">Our Presence</h2>
                     <p className="text-[#070707] font-poppins text-base sm:text-lg md:text-[20px] font-normal leading-[160%] tracking-[0.1px] mb-8">
-                        Admass operates multiple offices across the capital of Saudi Arabia Riyadh and is committed to expanding its
+                        <strong>Admass</strong> operates multiple offices across the capital of Saudi Arabia Riyadh and is committed to expanding its
                         physical footprint to meet growing demand and reach under-served regions.
                     </p>
 

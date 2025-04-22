@@ -16,7 +16,7 @@ export default function VisionAndMission() {
                     {/* Left Column: Vision and Mission */}
                     <div className="flex flex-col gap-6 lg:w-1/2">
                         {/* Vision */}
-                        <div className="bg-[#F9F9F9] p-6 rounded-lg shadow-sm">
+                        <div className="bg-[#F9F9F9] p-6 rounded-lg shadow-sm h-full">
                             <div className="flex items-start gap-4 mb-4">
                                 <div className="bg-[#002B5B] p-2 rounded-md">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="37" height="36" viewBox="0 0 37 36" fill="none">
@@ -36,7 +36,7 @@ export default function VisionAndMission() {
                         </div>
 
                         {/* Mission */}
-                        <div className="bg-[#F9F9F9] p-6 rounded-lg shadow-sm">
+                        <div className="bg-[#F9F9F9] p-6 rounded-lg shadow-sm h-full">
                             <div className="flex items-start gap-4 mb-4">
                                 <div className="bg-[#002B5B] p-2 rounded-md">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">

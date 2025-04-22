@@ -167,7 +167,7 @@ export default function WhoWeServePageArabic() {
                         </h2>
                         <div className="space-y-5">
                             <p dir="rtl" className="text-gray-700 text-right  text-[16px] leading-[26px]">
-                            في شركة أدماس، نؤمن باتخاذ القرارات الاستراتيجية المتوافقة مع احتياجات السوق، والتي ترتكز على:
+                            في شركة <strong>أدماس</strong>، نؤمن باتخاذ القرارات الاستراتيجية المتوافقة مع احتياجات السوق، والتي ترتكز على:
                             </p>
                             <div className="flex justify-end gap-5">
                                 <p dir="rtl" className=" text-[#070707] font-poppins ">
