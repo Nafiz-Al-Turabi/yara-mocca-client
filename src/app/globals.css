@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-poppins), Arial, Helvetica, sans-serif; 
+  scroll-behavior: smooth;
+}
+@font-face {
+  font-family: "TT Interphases";
+  src: url("/fonts/tt_interphases/TT Interphases Pro Trial Bold.ttf") format("opentype");
+}
+.text_heading{
+  font-family: "TT Interphases";
+}
+
