@@ -1,6 +1,36 @@
 "use client";
 
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
+
 export default function ContactUs() {
+  const form = useRef<HTMLFormElement>(null);
+
+  const sendEmail = (e: React.FormEvent) => {
+    e.preventDefault();
+
+    if (!form.current) return;
+
+    emailjs
+    .sendForm(
+      "service_3e6fgaf", //  service ID
+      "template_w7z39p4", //  template ID
+      form.current,
+      "UehaXJ2NZDeLrkWNr" //  public key
+    )
+      .then(
+        (result) => {
+          console.log("Message sent:", result.text);
+          alert("Message sent successfully!");
+          form.current?.reset();
+        },
+        (error) => {
+          console.error("Send error:", error.text);
+          alert("Failed to send message.");
+        }
+      );
+  };
+
   return (
     <section id="contact" className="bg-[#FDFBFA] py-20 font-poppins">
       <div className="max-w-7xl mx-auto px-4 md:px-8">
@@ -13,8 +43,7 @@ export default function ContactUs() {
         </p>
 
         <div className="flex flex-col lg:flex-row gap-12 justify-between">
-          {/* Left Contact Details */}
-          <div className="space-y-6 text-[#070707] font-poppins text-base sm:text-lg md:text-[20px] font-normal leading-[160%] tracking-[0.1px]">
+        <div className="space-y-6 text-[#070707] font-poppins text-base sm:text-lg md:text-[20px] font-normal leading-[160%] tracking-[0.1px]">
             <div className="flex items-center gap-3">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="22" viewBox="0 0 20 22" fill="none">
                 <g id="elements">
@@ -40,33 +69,38 @@ export default function ContactUs() {
               <span>admass@admassgroup.com</span>
             </div>
           </div>
-
           {/* Right Form */}
-          <form className="w-full lg:w-1/2 space-y-4">
+          <form ref={form} onSubmit={sendEmail} className="w-full lg:w-1/2 space-y-4">
             <input
+              name="user_name"
               type="text"
               placeholder="Your Name"
               className="w-full border border-gray-300 rounded-sm px-4 py-2 focus:outline-none focus:ring-1 focus:ring-[#002B5B]"
             />
             <input
+              name="user_email"
               type="email"
               placeholder="Email Address"
               className="w-full border border-gray-300 rounded-sm px-4 py-2 focus:outline-none focus:ring-1 focus:ring-[#002B5B]"
             />
             <input
+              name="company"
               type="text"
               placeholder="Company"
               className="w-full border border-gray-300 rounded-sm px-4 py-2 focus:outline-none focus:ring-1 focus:ring-[#002B5B]"
             />
             <input
+              name="interest"
               type="text"
               placeholder="Service Area of Interest"
               className="w-full border border-gray-300 rounded-sm px-4 py-2 focus:outline-none focus:ring-1 focus:ring-[#002B5B]"
             />
             <textarea
+              name="message"
               placeholder="Type Your Message"
               className="w-full border border-gray-300 rounded-sm px-4 py-2 h-28 focus:outline-none focus:ring-1 focus:ring-[#002B5B]"
             ></textarea>
+            <input type="hidden" name="year" value={new Date().getFullYear()} />
             <button
               type="submit"
               className="bg-[#002B5B] text-white px-6 py-2 rounded-sm hover:bg-[#014380] transition-all"
