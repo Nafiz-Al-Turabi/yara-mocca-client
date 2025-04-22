@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import { Poppins } from "next/font/google"; // ✅ Add this
+import { Poppins } from "next/font/google"; 
 import "./globals.css";
+import { Toaster } from 'sonner';
 
-// ✅ Set up the Poppins font
 const poppins = Poppins({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
-  variable: "--font-poppins", // for use in Tailwind
+  variable: "--font-poppins",
 });
 
 export const metadata: Metadata = {
@@ -20,8 +20,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={poppins.variable}> {/* ✅ Attach variable */}
+    <html lang="en" className={poppins.variable}> 
       <body>{children}</body>
+      <Toaster position="top-center" richColors />
     </html>
   );
 }

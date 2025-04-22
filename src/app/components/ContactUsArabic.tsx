@@ -1,15 +1,18 @@
 "use client";
 
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import { toast } from "sonner";
 
 export default function ContactUsArabic() {
+  const [loading, setLoading] = useState(false);
   const form = useRef<HTMLFormElement>(null);
 
   const sendEmail = (e: React.FormEvent) => {
     e.preventDefault();
 
     if (!form.current) return;
+    setLoading(true);
 
     emailjs
       .sendForm(
@@ -21,12 +24,14 @@ export default function ContactUsArabic() {
       .then(
         (result) => {
           console.log("Message sent:", result.text);
-          alert("تم إرسال الرسالة بنجاح!");
+          toast.success("تم إرسال الرسالة بنجاح!");
           form.current?.reset();
+          setLoading(false);
         },
         (error) => {
           console.error("Send error:", error.text);
-          alert("حدث خطأ أثناء الإرسال. حاول مرة أخرى.");
+          toast.error("حدث خطأ أثناء الإرسال. حاول مرة أخرى.");
+          setLoading(false);
         }
       );
   };
@@ -146,9 +151,12 @@ export default function ContactUsArabic() {
             ></textarea>
             <button
               type="submit"
-              className="bg-[#002B5B] text-right text-white px-6 py-2 rounded-sm hover:bg-[#014380] transition-all"
+              disabled={loading}
+              className={`bg-[#002B5B] text-right text-white px-6 py-2 rounded-sm transition-all ${
+                loading ? "opacity-60 cursor-not-allowed" : "hover:bg-[#014380]"
+              }`}
             >
-              قدّم الآن
+              {loading ? "جاري الإرسال..." : "قدّم الآن"}
             </button>
           </form>
         </div>
