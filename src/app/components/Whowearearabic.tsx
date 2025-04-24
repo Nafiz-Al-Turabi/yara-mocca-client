@@ -12,16 +12,20 @@ export default function Whowearearabic() {
           <div className="relative w-full lg:w-1/2">
             {/* Corner Decoration */}
             <div className="absolute bottom-0 left-0 z-0">
-              <svg
+            <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="156"
                 height="191"
                 viewBox="0 0 156 191"
                 fill="none"
               >
+                <mask id="path-1-inside-1_5311_706" fill="white">
+                  <path d="M156 8C156 3.58173 152.418 0 148 0H8C3.58173 0 0 3.58172 0 8V183C0 187.418 3.58173 191 8 191H148C152.418 191 156 187.418 156 183V8Z" />
+                </mask>
                 <path
                   d="M156 0H0H156ZM-12 183C-12 194.046 -3.0457 203 8 203H136C147.046 203 156 194.046 156 183V179C156 179 152.418 179 148 179H12L-12 183ZM156 191V0V191ZM8 0C-3.0457 0 -12 8.9543 -12 20V183C-12 194.046 -3.0457 203 8 203L12 179V8C12 3.58172 12 0 12 0H8Z"
                   fill="#002B5B"
+                  mask="url(#path-1-inside-1_5311_706)"
                 />
               </svg>
             </div>
