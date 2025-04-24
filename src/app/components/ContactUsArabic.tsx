@@ -24,7 +24,7 @@ export default function ContactUsArabic() {
       .then(
         (result) => {
           console.log("Message sent:", result.text);
-          toast.success("تم إرسال الرسالة بنجاح!");
+          toast.success("تم إرسال الرسالة بنجاح");
           form.current?.reset();
           setLoading(false);
         },

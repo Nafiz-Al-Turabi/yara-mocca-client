@@ -24,7 +24,7 @@ export default function ContactUs() {
       .then(
         (result) => {
           console.log("Message sent:", result.text);
-          toast.success("Message sent successfully!");
+          toast.success("Message sent successfully");
           form.current?.reset();
           setLoading(false);
         },
