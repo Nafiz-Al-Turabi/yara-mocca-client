@@ -30,9 +30,9 @@ const HeroBanner = () => {
             <Link href="#services" className="bg-white rounded-md px-6 py-3 text-[#070707] font-poppins text-base sm:text-lg md:text-[18px] font-medium leading-[160%] hover:bg-gray-100 transition">
               Explore Our Divisions
             </Link>
-            <button className="border border-white text-white px-6 py-3 rounded-md font-poppins text-base sm:text-lg md:text-[18px] font-medium leading-[160%] hover:bg-white hover:text-black transition">
+            <Link href="#contact" className="border border-white text-white px-6 py-3 rounded-md font-poppins text-base sm:text-lg md:text-[18px] font-medium leading-[160%] hover:bg-white hover:text-black transition">
               Partner With Admass
-            </button>
+            </Link>
           </div>
         </div>
       </div>

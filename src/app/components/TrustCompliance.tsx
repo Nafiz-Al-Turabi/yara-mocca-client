@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { FaCircleCheck } from "react-icons/fa6";
 
 export default function TrustCompliance() {
   return (
@@ -14,36 +15,36 @@ export default function TrustCompliance() {
 
           <div className="space-y-4 text-[#070707] font-poppins text-base sm:text-lg md:text-[20px] font-medium leading-[160%] tracking-[0.1px]">
             <div className="flex gap-3 items-start">
-              <Image src="/check-icon.png" alt="check" width={25} height={25} />
+              <span><FaCircleCheck size={20} className="text-[#002B5B] mt-2"/></span>
               <span>Licensed by the Ministry of Commerce of Saudi Arabia.</span>
             </div>
 
             <div className="flex gap-3 items-start">
-              <Image src="/check-icon.png" alt="check" width={25} height={25} />
+              <span><FaCircleCheck size={20}  className="text-[#002B5B] mt-2"/></span>
               <span>Licensed by the Chamber of Commerce of Saudi Arabia.</span>
             </div>
 
             <div className="flex gap-3 items-start">
-              <Image src="/check-icon.png" alt="check" width={25} height={25} />
+              <span><FaCircleCheck size={20}  className="text-[#002B5B] mt-2"/></span>
               <span>
                 Recognized by financial institutions and industry leaders for our strong track record, financial credibility, and transparent practices.
               </span>
             </div>
 
             <div className="flex gap-3 items-start">
-              <Image src="/check-icon.png" alt="check" width={25} height={25} />
+              <span><FaCircleCheck size={20}  className="text-[#002B5B] mt-2"/></span>
               <span>Client-first philosophy rooted in ethics, trust, and confidentiality.</span>
             </div>
 
             <div className="flex gap-3 items-start">
-              <Image src="/check-icon.png" alt="check" width={25} height={25} />
+              <span><FaCircleCheck size={20}  className="text-[#002B5B] mt-2"/></span>
               <span>
                 Secure operations and regulatory alignment with both local and international standards.
               </span>
             </div>
 
             <div className="flex gap-3 items-start">
-              <Image src="/check-icon.png" alt="check" width={25} height={25} />
+              <span><FaCircleCheck size={20}  className="text-[#002B5B] mt-2"/></span>
               <span>
                 Regular audits and reviews to ensure continued financial integrity and corporate accountability.
               </span>

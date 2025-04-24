@@ -7,8 +7,8 @@ export default function VisionAndMission() {
             <div className="max-w-7xl mx-auto px-4 md:px-8">
                 {/* Title */}
                 <h2 className="text-center text-3xl md:text-5xl font-semibold text-[#002B5B] text_heading mb-16">
-                    <span className="border-r pr-4 font-ttinter">Vision</span>
-                    <span className="border-r px-4 font-ttinter">Mission</span>
+                    <span className="border-r-4 pr-4 font-ttinter">Vision</span>
+                    <span className="border-r-4 px-4 font-ttinter">Mission</span>
                     <span className="pl-4 font-ttinter">Values</span>
                 </h2>
 
