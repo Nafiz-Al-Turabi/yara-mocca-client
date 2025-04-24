@@ -36,7 +36,7 @@ export default function WhoWeServePageArabic() {
                     {/* Image Section */}
                     <div className="relative w-full lg:w-1/2">
                         {/* Corner Decoration */}
-                        <div className="absolute md:-bottom-8 md:-right-18 z-0">
+                        <div className="absolute md:-bottom-5 md:-right-10 z-0">
                             <svg xmlns="http://www.w3.org/2000/svg" width="149" height="91" viewBox="0 0 149 91" fill="none">
                                 <g clip-path="url(#clip0_5311_387)">
                                     <path d="M146.25 90.9099C147.708 90.9099 148.89 89.7279 148.89 88.2699C148.89 86.8119 147.708 85.6299 146.25 85.6299C144.792 85.6299 143.61 86.8119 143.61 88.2699C143.61 89.7279 144.792 90.9099 146.25 90.9099Z" fill="#002B5B" />

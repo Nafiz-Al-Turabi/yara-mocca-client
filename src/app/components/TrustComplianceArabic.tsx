@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { FaCircleCheck } from "react-icons/fa6";
 
 export default function TrustComplianceArabic() {
     return (
@@ -15,38 +16,38 @@ export default function TrustComplianceArabic() {
                     <div className="space-y-4 text-[#070707] font-poppins text-base text-right sm:text-lg md:text-[20px] font-medium leading-[160%] tracking-[0.1px]">
                         <div className="flex gap-3 items-start justify-end">
                             <span dir="rtl">مرخص من وزارة التجارة في المملكة العربية السعودية.</span>
-                            <Image src="/check-icon.png" alt="check" width={25} height={25} />
+                            <span><FaCircleCheck size={20}  className="text-[#002B5B] mt-2"/></span>
                         </div>
 
                         <div className="flex gap-3 items-start justify-end">
                             <span dir="rtl">مرخص من غرفة التجارة في السعودية.</span>
-                            <Image src="/check-icon.png" alt="check" width={25} height={25} />
+                            <span><FaCircleCheck size={20}  className="text-[#002B5B] mt-2"/></span>
                         </div>
 
                         <div className="flex gap-3 items-start justify-end">
                             <span dir="rtl">
                                 معترف بنا من قبل المؤسسات المالية وقادة الصناعة لسجلنا القوي، ومصداقيتنا المالية، وممارساتنا الشفافة.
                             </span>
-                            <Image src="/check-icon.png" alt="check" width={25} height={25} />
+                            <span><FaCircleCheck size={20}  className="text-[#002B5B] mt-2"/></span>
                         </div>
 
                         <div className="flex gap-3 items-start justify-end">
                             <span dir="rtl">فلسفة تركز على العميل متجذرة في المصداقية والثقة والسرية.</span>
-                            <Image src="/check-icon.png" alt="check" width={25} height={25} />
+                            <span><FaCircleCheck size={20}  className="text-[#002B5B] mt-2"/></span>
                         </div>
 
                         <div className="flex gap-3 items-start justify-end">
                             <span dir="rtl">
                                 عمليات آمنة و توافق تنظيمي مع المعايير المحلية والدولية.
                             </span>
-                            <Image src="/check-icon.png" alt="check" width={25} height={25} />
+                            <span><FaCircleCheck size={20}  className="text-[#002B5B] mt-2"/></span>
                         </div>
 
                         <div className="flex gap-3 items-start justify-end">
                             <span dir="rtl">
                                 تدقيقات ومراجعات منتظمة لضمان الاستمرار في النزاهة المالية والمساءلة المؤسسية.
                             </span>
-                            <Image src="/check-icon.png" alt="check" width={25} height={25} />
+                            <span><FaCircleCheck size={20}  className="text-[#002B5B] mt-2"/></span>
                         </div>
                     </div>
                 </div>
