@@ -87,7 +87,7 @@ export default function ContactUs() {
                   />
                 </g>
               </svg>
-              <span>+966 11 419353</span>
+              <span>+966 11 4193535</span>
             </div>
             <div className="flex items-center gap-3">
               <svg
