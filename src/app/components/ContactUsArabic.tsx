@@ -75,7 +75,7 @@ export default function ContactUsArabic() {
               </svg>
             </div>
             <div className="flex flex-row-reverse justify-end items-center gap-3">
-              <span dir="ltr">+966 11 419353</span>
+              <span dir="ltr">+966 11 4193535</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="22"
