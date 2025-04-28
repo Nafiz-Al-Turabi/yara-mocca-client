@@ -49,7 +49,7 @@ export default function WhoWeAre() {
             </h2>
             <p className=" text-[#070707] mb-8 font-poppins text-base sm:text-lg md:text-xl lg:text-[20px] font-normal leading-[160%] tracking-[0.1px]">
               Founded in 1988 in Saudi Arabia,
-              <span className="font-bold">Admass International Group</span> is a
+              <span className="font-bold"> Admass International Group</span> is a
               premier investment and service company supporting international
               businesses in navigating and succeeding within the Kingdom. With
               expertise across diverse sectors, we provide end-to-end support
